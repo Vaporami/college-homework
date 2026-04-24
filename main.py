@@ -12,7 +12,7 @@ cursor = conn.cursor()
 
 
 amount = get_amount("ingredient", cursor)
-print(f"Кол-во ингредиентов в базе данных: {amount}")
+print(f"Всего ингредиентов в базе данных: {amount}")
 print()
 
 print("Все рецепты, в названии которых есть слово \"блины\":")
