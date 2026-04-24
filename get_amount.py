@@ -1,6 +1,6 @@
 def get_amount(table, cursor):
     cursor.execute(f"SELECT * FROM {table}")
-    amount = 0
-    for row in cursor:
-        amount += 1
-    return amount
+    a = 0
+    for r in cursor:
+        a += 1
+    return a
